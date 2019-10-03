@@ -8,15 +8,13 @@
 
 [Paradigma Orientado a Objetos](https://platzi.com/clases/1474-oop/16670-paradigma-orientado-a-objetos/)
 
-
 ## Paradigma
 
 - Teoría que suministra la base y modelo para resolver problemas.
 
-
 ## Compuesto de 4 Elementos
 
-1. Clases 
+1. Clases
 2. Propiedades
 3. Métodos
 4. Objetos
@@ -41,16 +39,15 @@
 8. Perl
 9. Kotlin
 
-
 ## Java
-- Orientado a Objetos natiralmente.
+- Orientado a Objetos natiralmente
 - Android
 - Server Side
 <!-- Buscar cursos de programación funcional -->
 - Extensión: .java
 
 ## PHP
-- Lenguaje interpretado.
+- Lenguaje interpretado
 - Pensado para la web.
 
 ## PYTHON
@@ -62,16 +59,15 @@
 ## JavaScript
 
 - Lenguaje interpretado
-- Orientado a 
+- Orientado a objetos
 
-## Diagramas de Modelado / Object Modeling Techniques (O.M.T.)
+## Diagramas de Modelado / Object Modeling Techniques (OMT)
 - OMT since 1991 (Deprecated)
 - Metología para el analisís orientado a objetos.
 
-
-
 ## Unified modeling Language (UML) 
-- Es un lenguaje estandar de modelos de sistemas orientados a objetos.
+- Es un lenguaje estandar de modelos de sistemas orientados a objetos
+
 - Plasmar nuestro analisis en un grafico.
 - UML: Unified Modeling Languaje (Lenguaje de Modelado Unificado).
 
@@ -135,13 +131,11 @@
 
 <!-- DIVIDE & VENCERÁS -->
 
-
 ## CLASE
 
 - Modularidad
 - Divide el programa en diferentes partes o módulo/ clases.
 - Separar las clases en archivos.
-
 
 <!-- Próxima Clase - Diagramas UML -->
 
@@ -181,7 +175,6 @@
 
 - Propiedades también pueden llamarse atributos serán sustantivos.
 
-
 - Por ejemplo:
 
 1. Nombre
@@ -190,7 +183,6 @@
 4. Estado
 
 <!-- Atributos -->
-
 
 # Comportamientos
 
@@ -287,7 +279,7 @@
     3. Uberblack: {
         id,
         license,
-        driver, 
+        driver,
         passengers,
         typeOfCarAccepted[],
         seatsMaterial[],
@@ -447,3 +439,40 @@ classPerson{}
 |--------------------------|
 | +                        |
 |--------------------------|
+
+## Definiendo Clases Java
+
+
+## Definiendo Clases Python
+
+
+## Definiendo Clases en JavaScript
+- Curso de Programación Orientada a Objetos POO
+- por anncode
+
+- Si estás interesado en aprender JavaScript desde ahora debes saber que el concepto de clases no existía como tal hasta el nuevo estándar EcmaScript 6
+- El reto de encontrar sistemas construidos con este estándar es alto por esa razón te explicaré cuál fue por mucho tiempo su equivalente.
+
+-Los Prototipos fue la forma de crear clases en JavaScript y las representaremos partiendo de la declaración de una función.
+
+### Creemos nuestras clases
+
+- Account
+- Car
+- Payment
+- Route
+
+## Para esto crearemos el siguiente sistema de archivos dentro de la carpeta JS de nuestro proyecto
+
+- Account.js
+- Car.js
+- Payment.js
+- Route.js
+- index.js
+
+- El archivo index.js será el lugar equivalente al punto de entrada de la aplicación donde estaremos declarando nuestros objetos basado en las clases. Para esta clase lo dejaremos en blanco.
+
+- Ahora veamos el código archivo por archivo:
+
+## Account.js
+
