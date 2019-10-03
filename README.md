@@ -410,3 +410,40 @@ classPerson{}
 
 - Crearemos nuevas clases a partir de otras.
 
+- Se establece una relación padre e hijo.
+
+# Súperclase = Padre
+
+## Subclase = Hijo
+
+
+
+<!-- Clase 14 -->
+
+[Aplicando Herencia](https://platzi.com/clases/1474-oop/16682-aplicando-herencia-a-nuestro-proyecto-uber/)
+
+
+|--------------------------|
+|          User            |    IDENTIDAD
+|--------------------------|
+| + id:                    |    ESTADO
+| + name:                  | 
+| + document:              | 
+| + email:                 | 
+| + password:              | 
+|--------------------------|
+| +                        |    COMPORTAMIENTO
+|--------------------------|
+
+
+|--------------------------|
+|         Driver           |    
+|--------------------------|
+| + id:                    |    
+| + name:                  | 
+| + document:              | 
+| + email:                 | 
+| + password:              | 
+|--------------------------|
+| +                        |
+|--------------------------|
