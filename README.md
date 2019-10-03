@@ -262,9 +262,11 @@
     3. document
     4. email
     5. password
+
 2. Route:
     1. start: [2] // latitude & longitud
     2. end: [2]  // latitude & longitud
+
 3. Cars: 
     1. Uberx: {
         id,
@@ -283,22 +285,50 @@
         model,
     }
     3. Uberblack: {
-
+        id,
+        license,
+        driver, 
+        passengers,
+        typeOfCarAccepted[],
+        seatsMaterial[],
     }
     4. Ubervan: {
-
+        id,
+        license,
+        driver
+        passengers,
+        typeOfCarAccepted[],
+        seatsMaterial[],
     }
+
 4. Driver: 
     1. id
     2. name
     3. document
     4. email
     5. password
+
 5. Amount:
-    1. card
-    2. paypal
-    3. cash
-6. Trip: User, Destination, Type of car, Payment Option
+    1. card: {
+        id,
+        number,
+        cvv,
+        date
+    }
+    2. paypal: {
+        id,
+        email
+    }
+    3. cash: {
+        id,
+    }
+
+6. Trip: {
+    user,
+    destination,
+    type of car,
+    payment Option,
+}
 
 
 #### RETO 1: identificando objetos
@@ -308,3 +338,58 @@
 1. Perros: Nombre,
 
 2. Dueños: Nombre,
+
+
+## UML 
+
+|------------------------------------|
+|         Nombre de Clase            |    IDENTIDAD
+|------------------------------------|
+| + Atributo1:                       |
+|   Atributo2:                       |    ESTADO
+|   Atributo3:                       |
+|------------------------------------|
+| + Operación1:                      |
+|   Operación2:                      |    COMPORTAMIENTO
+|   Operación3:                      |
+|------------------------------------|
+
+### EJEMPLO
+
+|--------------------------|
+|          Person          |    IDENTIDAD
+|--------------------------|
+| + name:                  |    ESTADO 
+|--------------------------|
+| + walk()                 |    COMPORTAMIENTO
+|--------------------------|
+
+
+# Java
+- class Person{}
+# Python
+- class Person:
+# JavaScript
+- functionPerson() {}
+# PHP
+classPerson{}
+
+
+# Java
+- class Person{
+    String name= "";
+    void walk() {}
+}
+
+# Python
+- class Person:
+    name = "";
+    def walk():
+
+# JavaScript
+- Person.prototype.walk = function() {
+    
+}
+
+# PHP
+- classPerson{}
