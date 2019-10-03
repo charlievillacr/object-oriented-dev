@@ -65,11 +65,15 @@
 - Orientado a 
 
 ## Diagramas de Modelado / Object Modeling Techniques (O.M.T.)
-
+- OMT since 1991 (Deprecated)
 - Metología para el analisís orientado a objetos.
 
-## Plasmar nuestro analisis en un grafico
-- UML: Unified Modeling Languaje (Lenguaje de Modelado Unificado)
+
+
+## Unified modeling Language (UML) 
+- Es un lenguaje estandar de modelos de sistemas orientados a objetos.
+- Plasmar nuestro analisis en un grafico.
+- UML: Unified Modeling Languaje (Lenguaje de Modelado Unificado).
 
 1. Clases
 2. Casos de Uso
@@ -78,4 +82,63 @@
 5. Iteracion
 6. Estados
 7. Implementación
+
+<!-- Investigar más sobre Ingeniería de Software -->
+
+## Ejemplo de Entregable: Modelo UML del Proyecto
+- Una manera gráfica de represenra una situación.
+<!-- UML is King -->
+
+
+## Las clases
+- Se representan así
+|------------------------------------|
+|               Clase                |
+|------------------------------------|
+| + attribute1:type = defaultValue   |
+| + attribute2:type                  |
+| - attribute3:type                  |
+|------------------------------------|
+| + operantion1(params):returnType   |
+| - operation2(params)               |
+| - operation3()                     |
+|------------------------------------|
+
+
+- En la parte superior de colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caractér con el que empiezan es sun íbolo. Este denotará la visibilidad del atributo o método, esto es un termino que tiene que ver Encapsulamiento y veremos más adelante a detalle.
+
+## Estos son los niveles de visibilidad que puedes tener:
+
+- private
++ public
+# protected
+~ default
+
+- Una forma de representa las relaciones que tendrá un elemento con otro es a través de la flechas en UML, y aquí tenemos varios tipos, estos son los más comúnes:
+
+## Asociación
+
+====>
+
+## MODULARIDAD
+
+- La modularidad va muy relacionada con las clases y es un principio de la Programación Orientado a Objetos y va de la mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y estas serán nuestros módulos pudiendo funcionar de manera independiente.
+
+### La modularidad de nuestro código nos va a permitir
+
+- Reutilizar código
+- Evitar colapsos
+- Hacer nuestro código más mantenible
+- Legibilidad
+- Resolución rápida de problemas
+- Una buena práctica es separando las clases en archivos diferentes.
+
+<!-- DIVIDE & VENCERÁS -->
+
+
+## CLASE
+
+- Modularidad
+- Divide el programa en diferentes partes o módulo/ clases.
+- Separar las clases en archivos.
 
