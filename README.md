@@ -330,7 +330,6 @@
     payment Option,
 }
 
-
 #### RETO 1: identificando objetos
 
 + Toma como referencia nuestro Sistema de Adopciones e identifica todos los objetos.
@@ -338,7 +337,6 @@
 1. Perros: Nombre,
 
 2. Dueños: Nombre,
-
 
 ## UML 
 
@@ -364,6 +362,7 @@
 | + walk()                 |    COMPORTAMIENTO
 |--------------------------|
 
+## Funciones
 
 # Java
 - class Person{}
@@ -374,6 +373,7 @@
 # PHP
 classPerson{}
 
+<!-- Funciones para definir Clases -->
 
 # Java
 - class Person{
@@ -385,11 +385,28 @@ classPerson{}
 - class Person:
     name = "";
     def walk():
-
+<!-- Anidación dentro del método -->
 # JavaScript
 - Person.prototype.walk = function() {
-    
-}
+    }
 
 # PHP
-- classPerson{}
+<!-- Dínamicamente tipeado -->
+- classPerson{
+    $name = "";
+    function walk() {}
+}
+<!-- Definir bloques de código, poner $ -->
+
+# DRY: Don't repeat yourself
+
+- Promueve la reducción de duplicación en programación.
+
+- Toda pieza de información nunca debería ser duplicada debido a que la duplicación incrementa la dificultad en los cambios y evolución.
+
+<!-- Vamos a reutilizar código -->
+
+# Herencia
+
+- Crearemos nuevas clases a partir de otras.
+
