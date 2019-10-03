@@ -1,0 +1,5 @@
+class Route {
+    Integer id;
+    ArrayList<Double> start;
+    ArraysList<Double> end;
+}
