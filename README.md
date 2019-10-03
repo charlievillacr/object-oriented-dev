@@ -142,3 +142,169 @@
 - Divide el programa en diferentes partes o módulo/ clases.
 - Separar las clases en archivos.
 
+
+<!-- Próxima Clase - Diagramas UML -->
+
+## OBJETOS
+
+- Los Objetos son aquellos que tienen propiedades y comportamientos, también serán sustantivos.
+
+<!-- Siempre tienen: Propiedades y comportamientos -->
+
+<!-- Identificar los objetos -->
+
+### Pueden ser Físicos o Conceptuales
+
+- Las Propiedades también pueden llamarse atributos y estos también serán sustantivos. Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto.
+
+- Objeto fisico: manzana
+
+- Los Comportamientos serán todas las operaciones que el objeto puede hacer, suelen ser verbos o sustantivos y verbo. Algunos ejemplos pueden ser que el usuario pueda hacer login y logout.
+
+- Objeto conceptual = Simbologías
+
+- ¿Estos pueden tener atributos y comportamientos?
+
+- Objeto conceptual = Sesión de usuario
+
+- Hizo log in, log out, identficador de la sesión, etc.
+
+- User = Objeto físico
+
+- Session = Objeto conceptual
+
+- Objeto conceptual = cuenta de un banco
+
+- Objeto físico = tarjeta de débito.
+
+## Propiedades = Atributos
+
+- Propiedades también pueden llamarse atributos serán sustantivos.
+
+
+- Por ejemplo:
+
+1. Nombre
+2. Tamaño
+3. Forma
+4. Estado
+
+<!-- Atributos -->
+
+
+# Comportamientos
+
+- Serán todas la operaciones del objeto, suelen ser verbos o sustantivo y verbo.
+
+1. login()
+2. logout()
+3. makeReport()
+
+## Perro
+
+<!-- Propiedades -->
++ nombre
++ color
++ raza
++ altura
+
+<!-- Comportamientos -->
++ ladrar
++ comer
++ dormir
++ correr
+
+### Adopciones
+<!-- Propiedades -->
++ id
++ nombre
++ color
++ raza
++ altura
+
+<!-- Comportamientos -->
++ serAdoptado()
+
+## Abstracción y Clases
+
+### CLASE
+
+- Es el MODELO sobre el cual se construirá nuestro objeto.
+
+- La clase es la PLANTILLA, que nos permitirá crear más objetos(instanciar, más adelante).
+
+### ABSTRACCIÓN
+<!-- Analizar Objetos para crear Clases -->
+- La abstracción es extraer las propiedades y comportamientos que tienen en común varios objetos (o uno solo) para crear la plantilla, el molde, la clase.
+
+<!-- Curso Programación Orientada a Objetos -->
+
+#### EJEMPLO: Uber
+
+<!-- Clase 11 - Analizando Uber -->
+
+- Necesidad: Traslado desde punto A hasta punto B.
+
+1. Solicitud del auto
+2. Elijo destino a => b
+3. Tipos de autos => Conductor
+    a. UberX
+    b. UberPool
+    c. UberBlack
+    d. UberVan
+4. Conductor => Auto => Viaje => Costo $ del Viaje
+
+- Objetos:
+
+1. User:
+    1. id
+    2. name
+    3. document
+    4. email
+    5. password
+2. Route:
+    1. start: [2] // latitude & longitud
+    2. end: [2]  // latitude & longitud
+3. Cars: 
+    1. Uberx: {
+        id,
+        license,
+        driver,
+        passengers,
+        brand,
+        model,
+    }
+    2. Uberpool: {
+        id,
+        license,
+        driver,
+        passengers,
+        brand,
+        model,
+    }
+    3. Uberblack: {
+
+    }
+    4. Ubervan: {
+
+    }
+4. Driver: 
+    1. id
+    2. name
+    3. document
+    4. email
+    5. password
+5. Amount:
+    1. card
+    2. paypal
+    3. cash
+6. Trip: User, Destination, Type of car, Payment Option
+
+
+#### RETO 1: identificando objetos
+
++ Toma como referencia nuestro Sistema de Adopciones e identifica todos los objetos.
+
+1. Perros: Nombre,
+
+2. Dueños: Nombre,
