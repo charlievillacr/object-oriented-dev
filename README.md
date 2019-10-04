@@ -91,8 +91,8 @@
 - Una manera gráfica de represenra una situación
 <!-- UML is King -->
 
-
 ## Las clases
+
 - Se representan así
 |------------------------------------|
 |               Clase                |
@@ -106,15 +106,16 @@
 | - operation3()                     |
 |------------------------------------|
 
-
 - En la parte superior de colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caractér con el que empiezan es sun íbolo. Este denotará la visibilidad del atributo o método, esto es un termino que tiene que ver Encapsulamiento y veremos más adelante a detalle.
 
-## Estos son los niveles de visibilidad que puedes tener:
+## Estos son los niveles de visibilidad que puedes tener
 
+<!-- 
 - private
 + public
 # protected
 ~ default
+ -->
 
 - Una forma de representa las relaciones que tendrá un elemento con otro es a través de la flechas en UML, y aquí tenemos varios tipos, estos son los más comúnes:
 
@@ -201,35 +202,36 @@
 ## Perro
 
 <!-- Propiedades -->
-+ nombre
-+ color
-+ raza
-+ altura
+- nombre
+- color
+- raza
+- altura
 
 <!-- Comportamientos -->
-+ ladrar
-+ comer
-+ dormir
-+ correr
+- ladrar
+- comer
+- dormir
+- correr
 
 ### Adopciones
 <!-- Propiedades -->
-+ id
-+ nombre
-+ color
-+ raza
-+ altura
+- id
+- nombre
+- color
+- raza
+- altura
 
 <!-- Comportamientos -->
-+ serAdoptado()
+``` serAdoptado()
+```
 
 ## Abstracción y Clases
 
-### CLASE
+### Clase
 
 - Es el MODELO sobre el cual se construirá nuestro objeto.
 
-- La clase es la PLANTILLA, que nos permitirá crear más objetos(instanciar, más adelante).
+- La clase es la PLANTILLA, que nos permitirá crear más objetos(instanciar, más adelante)
 
 ### ABSTRACCIÓN
 <!-- Analizar Objetos para crear Clases -->
@@ -265,7 +267,7 @@
     1. start: [2] // latitude & longitud
     2. end: [2]  // latitude & longitud
 
-3. Cars: 
+3. Cars:
     1. Uberx: {
         id,
         license,
@@ -330,7 +332,7 @@
 
 #### RETO 1: identificando objetos
 
-+ Toma como referencia nuestro Sistema de Adopciones e identifica todos los objetos.
+- Toma como referencia nuestro Sistema de Adopciones e identifica todos los objetos.
 
 1. Perros: Nombre,
 
@@ -338,6 +340,7 @@
 
 ## UML
 
+<!--
 |------------------------------------|
 |         Nombre de Clase            |    IDENTIDAD
 |------------------------------------|
@@ -349,52 +352,66 @@
 |   Operación2:                      |    COMPORTAMIENTO
 |   Operación3:                      |
 |------------------------------------|
+ -->
 
 ### EJEMPLO
 
+<!--
 |--------------------------|
 |          Person          |    IDENTIDAD
 |--------------------------|
-| + name:                  |    ESTADO 
+| + name:                  |    ESTADO
 |--------------------------|
 | + walk()                 |    COMPORTAMIENTO
 |--------------------------|
+ -->
 
 ## Funciones
 
-## Java
-- class Person{}
-## Python
-- class Person:
-## JavaScript
-- functionPerson() {}
-## PHP
-classPerson{}
+### Java
 
+``` class Person{}
+```
+
+### Python
+
+``` class Person:
+```
+
+### JavaScript
+
+``` functionPerson() {}
+```
+
+### PHP
+
+```classPerson{}
+```
 <!-- Funciones para definir Clases -->
 
-## Java
-```class Person{
+### Java
+
+``` class Person{
     String name= "";
     void walk() {}
 }
 ```
 
-## Python
+### Python
 
 ```class Person:
     name = "";
     def walk();
-    ```
+```
 <!-- Anidación dentro del método -->
 
-## JavaScript
+### JavaScript
 
 ```Person.prototype.walk = function() {
     }
 ```
 
-## PHP
+### PHP
 
 <!-- Dínamicamente tipeado -->
 ```classPerson{
@@ -459,12 +476,14 @@ classPerson{}
 ## Definiendo Clases en JavaScript
 
 - Curso de Programación Orientada a Objetos POO
+
 - por anncode
 
 - Si estás interesado en aprender JavaScript desde ahora debes saber que el concepto de clases no existía como tal hasta el nuevo estándar EcmaScript 6
-- El reto de encontrar sistemas construidos con este estándar es alto por esa razón te explicaré cuál fue por mucho tiempo su equivalente.
 
--Los Prototipos fue la forma de crear clases en JavaScript y las representaremos partiendo de la declaración de una función.
+- El reto de encontrar sistemas construidos con este estándar es alto por esa razón te explicaré cuál fue por mucho tiempo su equivalente
+
+- Los Prototipos fue la forma de crear clases en JavaScript y las representaremos partiendo de la declaración de una función
 
 ### Creemos nuestras clases
 
@@ -479,7 +498,8 @@ classPerson{}
 - Car.js
 - Payment.js
 - Route.js
-- index.js ```
+- index.js
+```
 
 - El archivo index.js será el lugar equivalente al punto de entrada de la aplicación donde estaremos declarando nuestros objetos basado en las clases. Para esta clase lo dejaremos en blanco.
 
@@ -523,7 +543,7 @@ classPerson{}
 }
 ```
 
-## OBJETOS
+## Objetos
 
 <!-- 4 lenguajes > 4 maneras de declarar -->
 
@@ -531,15 +551,16 @@ classPerson{}
 
 ``` Person person = new Person();
 ```
+<!-- new Person() crea una instancia de la clase -->
+
+## JavaScript
+
+``` var person = new Person();
+```
 
 ### Python
 
 ``` persona = Person();
-```
-
-### JavaScript
-
-``` var person = new Person();
 ```
 
 ### PHP
@@ -549,6 +570,10 @@ classPerson{}
 
 ## Método constructor
 
+<!-- Java, JS, & PHP => new Person(); -->
+<!-- Python => Person() -->
+
 - Dar un estao inicial al objeto
 - Tiene el mismo nombre de la clase
 - Son los parámetros mínimos que necesita el objeto para pueda vivir
+
