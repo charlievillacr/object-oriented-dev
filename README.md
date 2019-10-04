@@ -4,29 +4,29 @@
 - Viene de la metodología: "Orientación a objetos"
 - Surge a partir de los problemas que tenemos y necesitamos plasmar en código.
 
-## Clase Num.4 URL
+- Clase Num.4 URL
 
 [Paradigma Orientado a Objetos](https://platzi.com/clases/1474-oop/16670-paradigma-orientado-a-objetos/)
 
-## Paradigma
+- Paradigma
 
 - Teoría que suministra la base y modelo para resolver problemas.
 
-## Compuesto de 4 Elementos
+ Compuesto de 4 Elementos
 
 1. Clases
 2. Propiedades
 3. Métodos
 4. Objetos
 
-## 4 Pilares
+- 4 Pilares
 
 1. Encapsulamiento
 2. Abstracción
 3. Herencia
 4. Polimorfismo
 
-## Lenguajes orientados a objetos
+- Lenguajes orientados a objetos
 
 1. JavaScript
 2. Python
@@ -39,7 +39,7 @@
 8. Perl
 9. Kotlin
 
-## Java
+- Java
 
 ``` Orientado a Objetos natiralmente
 - Android
@@ -48,28 +48,28 @@
 - Extensión: .java
 ```
 
-## PHP
+- PHP
 
 - Lenguaje interpretado
 - Pensado para la web.
 
-## PYTHON
+- PYTHON
 
 - Diseñado para ser fácil de usar
 - Múltiples usos: Web, Server Side, Análisis de Datos, Machine Learning.
 - Extensión: .py
 
-## JavaScript
+- JavaScript
 
 - Lenguaje interpretado
 - Orientado a objetos
 
-## Diagramas de Modelado / Object Modeling Techniques (OMT)
+- Diagramas de Modelado / Object Modeling Techniques (OMT)
 
 - OMT since 1991 (Deprecated)
 - Metología para el analisís orientado a objetos.
 
-## Unified modeling Language (UML) 
+- Unified modeling Language (UML)
 
 - Es un lenguaje estandar de modelos de sistemas orientados a objetos
 
@@ -86,12 +86,12 @@
 
 <!-- Investigar más sobre Ingeniería de Software -->
 
-## Ejemplo de Entregable Modelo UML del Proyecto
+- Ejemplo de Entregable Modelo UML del Proyecto
 
 - Una manera gráfica de represenra una situación
 <!-- UML is King -->
 
-## Las clases
+- Las clases
 
 - Se representan así
 |------------------------------------|
@@ -108,7 +108,7 @@
 
 - En la parte superior de colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caractér con el que empiezan es sun íbolo. Este denotará la visibilidad del atributo o método, esto es un termino que tiene que ver Encapsulamiento y veremos más adelante a detalle.
 
-## Estos son los niveles de visibilidad que puedes tener
+- Estos son los niveles de visibilidad que puedes tener
 
 <!-- 
 - private
@@ -119,15 +119,15 @@
 
 - Una forma de representa las relaciones que tendrá un elemento con otro es a través de la flechas en UML, y aquí tenemos varios tipos, estos son los más comúnes:
 
-## Asociación
+- Asociación
 
 ====>
 
-## MODULARIDAD
+- MODULARIDAD
 
 - La modularidad va muy relacionada con las clases y es un principio de la Programación Orientado a Objetos y va de la mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y estas serán nuestros módulos pudiendo funcionar de manera independiente.
 
-### La modularidad de nuestro código nos va a permitir
+- La modularidad de nuestro código nos va a permitir
 
 - Reutilizar código
 - Evitar colapsos
@@ -138,7 +138,7 @@
 
 <!-- DIVIDE & VENCERÁS -->
 
-## CLASE
+- CLASE
 
 - Modularidad
 - Divide el programa en diferentes partes o módulo/ clases.
@@ -146,7 +146,7 @@
 
 <!-- Próxima Clase - Diagramas UML -->
 
-## OBJETOS
+- OBJETOS
 
 - Los Objetos son aquellos que tienen propiedades y comportamientos, también serán sustantivos.
 
@@ -154,7 +154,7 @@
 
 <!-- Identificar los objetos -->
 
-### Pueden ser Físicos o Conceptuales
+- Pueden ser Físicos o Conceptuales
 
 - Las Propiedades también pueden llamarse atributos y estos también serán sustantivos. Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto.
 
@@ -178,7 +178,7 @@
 
 - Objeto físico = tarjeta de débito.
 
-## Propiedades = Atributos
+- Propiedades = Atributos
 
 - Propiedades también pueden llamarse atributos serán sustantivos.
 
@@ -191,7 +191,7 @@
 
 <!-- Atributos -->
 
-## Comportamientos
+- Comportamientos
 
 - Serán todas la operaciones del objeto, suelen ser verbos o sustantivo y verbo.
 
@@ -199,7 +199,7 @@
 2. logout()
 3. makeReport()
 
-## Perro
+- Perro
 
 <!-- Propiedades -->
 - nombre
@@ -213,7 +213,7 @@
 - dormir
 - correr
 
-### Adopciones
+- Adopciones
 <!-- Propiedades -->
 - id
 - nombre
@@ -225,21 +225,21 @@
 ``` serAdoptado()
 ```
 
-## Abstracción y Clases
+- Abstracción y Clases
 
-### Clase
+- Clase
 
 - Es el MODELO sobre el cual se construirá nuestro objeto.
 
 - La clase es la PLANTILLA, que nos permitirá crear más objetos(instanciar, más adelante)
 
-### ABSTRACCIÓN
+- ABSTRACCIÓN
 <!-- Analizar Objetos para crear Clases -->
 - La abstracción es extraer las propiedades y comportamientos que tienen en común varios objetos (o uno solo) para crear la plantilla, el molde, la clase.
 
 <!-- Curso Programación Orientada a Objetos -->
 
-#### EJEMPLO: Uber
+- EJEMPLO: Uber
 
 <!-- Clase 11 - Analizando Uber -->
 
@@ -330,7 +330,7 @@
     payment Option,
 }
 
-#### RETO 1: identificando objetos
+- RETO 1: identificando objetos
 
 - Toma como referencia nuestro Sistema de Adopciones e identifica todos los objetos.
 
@@ -338,7 +338,7 @@
 
 2. Dueños: Nombre,
 
-## UML
+- UML
 
 <!--
 |------------------------------------|
@@ -354,7 +354,7 @@
 |------------------------------------|
  -->
 
-### EJEMPLO
+- EJEMPLO
 
 <!--
 |--------------------------|
@@ -366,30 +366,30 @@
 |--------------------------|
  -->
 
-## Funciones
+- Funciones
 
-### Java
+- Java
 
 ``` class Person{}
 ```
 
-### Python
+- Python
 
 ``` class Person:
 ```
 
-### JavaScript
+- JavaScript
 
 ``` functionPerson() {}
 ```
 
-### PHP
+- PHP
 
 ```classPerson{}
 ```
 <!-- Funciones para definir Clases -->
 
-### Java
+- Java
 
 ``` class Person{
     String name= "";
@@ -397,7 +397,7 @@
 }
 ```
 
-### Python
+- Python
 
 ```class Person:
     name = "";
@@ -405,13 +405,13 @@
 ```
 <!-- Anidación dentro del método -->
 
-### JavaScript
+- JavaScript
 
 ```Person.prototype.walk = function() {
     }
 ```
 
-### PHP
+- PHP
 
 <!-- Dínamicamente tipeado -->
 ```classPerson{
@@ -421,7 +421,7 @@
 ```
 <!-- Definir bloques de código, poner $ -->
 
-## DRY: Don't repeat yourself
+- DRY: Don't repeat yourself
 
 - Promueve la reducción de duplicación en programación.
 
@@ -429,15 +429,15 @@
 
 <!-- Vamos a reutilizar código -->
 
-## Herencia
+- HERENCIA
 
 - Crearemos nuevas clases a partir de otras.
 
 - Se establece una relación padre e hijo.
 
-## Súperclase igual a Padre
+1. Súperclase igual a Padre
 
-## Subclase igual a Hijo
+2. Subclase igual a Hijo
 
 <!-- Clase 14 -->
 
@@ -469,11 +469,11 @@
 |--------------------------|
 -->
 
-## Definiendo Clases Java
+- Definiendo Clases Java
 
-## Definiendo Clases Python
+- Definiendo Clases Python
 
-## Definiendo Clases en JavaScript
+- Definiendo Clases en JavaScript
 
 - Curso de Programación Orientada a Objetos POO
 
@@ -485,14 +485,14 @@
 
 - Los Prototipos fue la forma de crear clases en JavaScript y las representaremos partiendo de la declaración de una función
 
-### Creemos nuestras clases
+- Creemos nuestras clases
 
 - Account
 - Car
 - Payment
 - Route
 
-## Para esto crearemos el siguiente sistema de archivos dentro de la carpeta JS de nuestro proyecto
+- Para esto crearemos el siguiente sistema de archivos dentro de la carpeta JS de nuestro proyecto
 
 ```- Account.js
 - Car.js
@@ -505,7 +505,7 @@
 
 - Ahora veamos el código archivo por archivo:
 
-## Account.js
+- Account.js
 
 ```function Account() {
     this.id;
@@ -516,7 +516,7 @@
 }
 ```
 
-## Car.js
+- Car.js
 
 ``` function Car() {
     this.id;
@@ -524,17 +524,16 @@
     this.driver;
     this.passenger;
 }
-
 ```
 
-## Payment.js
+- Payment.js
 
 ```  function Payment() {
         this.id;
     }
 ```
 
-## Route.js
+- Route.js
 
 ``` function Route {
     this.id;
@@ -543,32 +542,32 @@
 }
 ```
 
-## Objetos
+- Objetos
 
 <!-- 4 lenguajes > 4 maneras de declarar -->
 
-### Java
+- Java
 
 ``` Person person = new Person();
 ```
 <!-- new Person() crea una instancia de la clase -->
 
-## JavaScript
+- JavaScript
 
 ``` var person = new Person();
 ```
 
-### Python
+- Python
 
 ``` persona = Person();
 ```
 
-### PHP
+- PHP
 
 ``` $person = new Person();
 ```
 
-## Método constructor
+- Método constructor
 
 <!-- Java, JS, & PHP => new Person(); -->
 <!-- Python => Person() -->
@@ -579,30 +578,30 @@
 
 [Clase 20](https://platzi.com/clases/1474-oop/16687-objetos-metodo-constructor-y-su-sintaxis-en-codigo/)
 
-## Métodos
+- Métodos
 
-### java
+- java
 
 ```public Person(String name){
     this.name = name;
 }
 ```
 
-### javascript
+- javascript
 
 ``` function Person(name){
     this.name = name;
 }
 ```
 
-### php
+- php
 
 ```public function __contruct($name){
     $this->name = name;
 }
 ```
 
-### python
+- python
 
 ```def __init (self, name):
         self.name = name
@@ -610,24 +609,24 @@
 
 <!-- Las forma de llamar esos objetos y pasarle los datos -->
 
-### java
+- java
 
 ``` Public person = new;
     Person("Ann");
 ```
 
-### javascript
+- javascript
 
 ``` var person = new
     Person("Ann");
 ```
 
-### php 
+- php
 
 ``` $person = new Person("Ann");
 ```
 
-### python
+- python
 
 ``` person = Person("Ann")
 ```
