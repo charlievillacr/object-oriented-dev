@@ -581,31 +581,57 @@
 
 ## Métodos
 
-### Java
+### java
 
 ```public Person(String name){
     this.name = name;
 }
 ```
 
-### JavaScript
+### javascript
 
 ``` function Person(name){
     this.name = name;
 }
 ```
 
-### PHP
+### php
 
 ```public function __contruct($name){
     $this->name = name;
 }
 ```
 
-### Python
+### python
 
 ```def __init (self, name):
         self.name = name
 ```
 
+<!-- Las forma de llamar esos objetos y pasarle los datos -->
 
+### java
+
+``` Public person = new;
+    Person("Ann");
+```
+
+### javascript
+
+``` var person = new
+    Person("Ann");
+```
+
+### php 
+
+``` $person = new Person("Ann");
+```
+
+### python
+
+``` person = Person("Ann")
+```
+
+<!-- Objetos dando vida a nuestras clases -->
+
+[Clase 21](https://platzi.com/clases/1474-oop/16686-dando-vida-a-nuestras-clases-en-java-y-python/)
