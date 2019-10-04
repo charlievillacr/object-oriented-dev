@@ -405,7 +405,6 @@
 Person.prototype.walk = function() {
     }
 
-
 - PHP
 
 <!-- Dínamicamente tipeado -->
@@ -489,12 +488,11 @@ classPerson{
 
 - Para esto crearemos el siguiente sistema de archivos dentro de la carpeta JS de nuestro proyecto
 
-```- Account.js
+- Account.js
 - Car.js
 - Payment.js
 - Route.js
 - index.js
-```
 
 - El archivo index.js será el lugar equivalente al punto de entrada de la aplicación donde estaremos declarando nuestros objetos basado en las clases. Para esta clase lo dejaremos en blanco.
 
@@ -502,40 +500,36 @@ classPerson{
 
 - Account.js
 
-```function Account() {
+function Account() {
     this.id;
     this.name;
     this.docuemnt;
     this.email;
     this.password;
 }
-```
 
 - Car.js
 
-``` function Car() {
+function Car() {
     this.id;
     this.lincese;
     this.driver;
     this.passenger;
 }
-```
 
 - Payment.js
 
-```  function Payment() {
+function Payment() {
         this.id;
     }
-```
 
 - Route.js
 
-``` function Route {
+function Route {
     this.id;
     this.init;
     this.end;
 }
-```
 
 - Objetos
 
@@ -543,24 +537,21 @@ classPerson{
 
 - Java
 
-``` Person person = new Person();
-```
+Person person = new Person();
+
 <!-- new Person() crea una instancia de la clase -->
 
 - JavaScript
 
-``` var person = new Person();
-```
+var person = new Person();
 
 - Python
 
-``` persona = Person();
-```
+persona = Person();
 
 - PHP
 
-``` $person = new Person();
-```
+$person = new Person();
 
 - Método constructor
 
@@ -577,54 +568,45 @@ classPerson{
 
 - java
 
-```public Person(String name){
+public Person(String name){
     this.name = name;
 }
-```
 
 - javascript
 
-``` function Person(name){
+function Person(name){
     this.name = name;
 }
-```
 
 - php
 
-```public function __contruct($name){
+public function __contruct($name){
     $this->name = name;
-}
-```
 
 - python
 
-```def __init (self, name):
+def __init (self, name):
         self.name = name
-```
 
 <!-- Las forma de llamar esos objetos y pasarle los datos -->
 
 - java
 
-``` Public person = new;
+Public person = new;
     Person("Ann");
-```
 
 - javascript
 
-``` var person = new
+var person = new
     Person("Ann");
-```
 
 - php
 
-``` $person = new Person("Ann");
-```
+$person = new Person("Ann");
 
 - python
 
-``` person = Person("Ann")
-```
+person = Person("Ann")
 
 <!-- Objetos dando vida a nuestras clases -->
 
