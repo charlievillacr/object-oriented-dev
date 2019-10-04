@@ -573,7 +573,39 @@
 <!-- Java, JS, & PHP => new Person(); -->
 <!-- Python => Person() -->
 
-- Dar un estao inicial al objeto
+- Dar un estado inicial al objeto
 - Tiene el mismo nombre de la clase
 - Son los parámetros mínimos que necesita el objeto para pueda vivir
+
+[Clase 20](https://platzi.com/clases/1474-oop/16687-objetos-metodo-constructor-y-su-sintaxis-en-codigo/)
+
+## Métodos
+
+### Java
+
+```public Person(String name){
+    this.name = name;
+}
+```
+
+### JavaScript
+
+``` function Person(name){
+    this.name = name;
+}
+```
+
+### PHP
+
+```public function __contruct($name){
+    $this->name = name;
+}
+```
+
+### Python
+
+```def __init (self, name):
+        self.name = name
+```
+
 
