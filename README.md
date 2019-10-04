@@ -1,7 +1,7 @@
 # Programación Orientada a Objetos (POO)
 
 - Simplifica la programación.
-- Viene de la metodología: "Orientación a objetos".
+- Viene de la metodología: "Orientación a objetos"
 - Surge a partir de los problemas que tenemos y necesitamos plasmar en código.
 
 ## Clase Num.4 URL
@@ -40,13 +40,16 @@
 9. Kotlin
 
 ## Java
-- Orientado a Objetos natiralmente
+
+``` Orientado a Objetos natiralmente
 - Android
 - Server Side
 <!-- Buscar cursos de programación funcional -->
 - Extensión: .java
+```
 
 ## PHP
+
 - Lenguaje interpretado
 - Pensado para la web.
 
@@ -62,10 +65,12 @@
 - Orientado a objetos
 
 ## Diagramas de Modelado / Object Modeling Techniques (OMT)
+
 - OMT since 1991 (Deprecated)
 - Metología para el analisís orientado a objetos.
 
 ## Unified modeling Language (UML) 
+
 - Es un lenguaje estandar de modelos de sistemas orientados a objetos
 
 - Plasmar nuestro analisis en un grafico.
@@ -81,8 +86,9 @@
 
 <!-- Investigar más sobre Ingeniería de Software -->
 
-## Ejemplo de Entregable: Modelo UML del Proyecto
-- Una manera gráfica de represenra una situación.
+## Ejemplo de Entregable Modelo UML del Proyecto
+
+- Una manera gráfica de represenra una situación
 <!-- UML is King -->
 
 
@@ -184,7 +190,7 @@
 
 <!-- Atributos -->
 
-# Comportamientos
+## Comportamientos
 
 - Serán todas la operaciones del objeto, suelen ser verbos o sustantivo y verbo.
 
@@ -293,7 +299,7 @@
         seatsMaterial[],
     }
 
-4. Driver: 
+4. Driver:
     1. id
     2. name
     3. document
@@ -330,7 +336,7 @@
 
 2. Dueños: Nombre,
 
-## UML 
+## UML
 
 |------------------------------------|
 |         Nombre de Clase            |    IDENTIDAD
@@ -356,41 +362,49 @@
 
 ## Funciones
 
-# Java
+## Java
 - class Person{}
-# Python
+## Python
 - class Person:
-# JavaScript
+## JavaScript
 - functionPerson() {}
-# PHP
+## PHP
 classPerson{}
 
 <!-- Funciones para definir Clases -->
 
-# Java
-- class Person{
+## Java
+```class Person{
     String name= "";
     void walk() {}
 }
+```
 
-# Python
-- class Person:
+## Python
+
+```class Person:
     name = "";
-    def walk():
+    def walk();
+    ```
 <!-- Anidación dentro del método -->
-# JavaScript
-- Person.prototype.walk = function() {
-    }
 
-# PHP
+## JavaScript
+
+```Person.prototype.walk = function() {
+    }
+```
+
+## PHP
+
 <!-- Dínamicamente tipeado -->
-- classPerson{
+```classPerson{
     $name = "";
     function walk() {}
 }
+```
 <!-- Definir bloques de código, poner $ -->
 
-# DRY: Don't repeat yourself
+## DRY: Don't repeat yourself
 
 - Promueve la reducción de duplicación en programación.
 
@@ -398,55 +412,52 @@ classPerson{}
 
 <!-- Vamos a reutilizar código -->
 
-# Herencia
+## Herencia
 
 - Crearemos nuevas clases a partir de otras.
 
 - Se establece una relación padre e hijo.
 
-# Súperclase = Padre
+## Súperclase igual a Padre
 
-## Subclase = Hijo
-
-
+## Subclase igual a Hijo
 
 <!-- Clase 14 -->
 
 [Aplicando Herencia](https://platzi.com/clases/1474-oop/16682-aplicando-herencia-a-nuestro-proyecto-uber/)
 
-
+<!--  
 |--------------------------|
 |          User            |    IDENTIDAD
 |--------------------------|
 | + id:                    |    ESTADO
-| + name:                  | 
-| + document:              | 
-| + email:                 | 
-| + password:              | 
+| + name:                  |
+| + document:              |
+| + email:                 |
+| + password:              |
 |--------------------------|
 | +                        |    COMPORTAMIENTO
 |--------------------------|
 
-
 |--------------------------|
-|         Driver           |    
+|         Driver           |
 |--------------------------|
-| + id:                    |    
-| + name:                  | 
-| + document:              | 
-| + email:                 | 
-| + password:              | 
+| + id:                    |
+| + name:                  |
+| + document:              |
+| + email:                 |
+| + password:              |
 |--------------------------|
 | +                        |
 |--------------------------|
+-->
 
 ## Definiendo Clases Java
 
-
 ## Definiendo Clases Python
 
-
 ## Definiendo Clases en JavaScript
+
 - Curso de Programación Orientada a Objetos POO
 - por anncode
 
@@ -464,11 +475,11 @@ classPerson{}
 
 ## Para esto crearemos el siguiente sistema de archivos dentro de la carpeta JS de nuestro proyecto
 
-- Account.js
+```- Account.js
 - Car.js
 - Payment.js
 - Route.js
-- index.js
+- index.js ```
 
 - El archivo index.js será el lugar equivalente al punto de entrada de la aplicación donde estaremos declarando nuestros objetos basado en las clases. Para esta clase lo dejaremos en blanco.
 
@@ -476,32 +487,68 @@ classPerson{}
 
 ## Account.js
 
-function Account() {
+```function Account() {
     this.id;
     this.name;
     this.docuemnt;
     this.email;
     this.password;
 }
+```
 
 ## Car.js
 
-function Car() {
+``` function Car() {
     this.id;
     this.lincese;
     this.driver;
     this.passenger;
 }
 
+```
+
 ## Payment.js
-    function Payment() {
+
+```  function Payment() {
         this.id;
     }
+```
 
-## Route.js 
+## Route.js
 
-function Route {
+``` function Route {
     this.id;
     this.init;
     this.end;
 }
+```
+
+## OBJETOS
+
+<!-- 4 lenguajes > 4 maneras de declarar -->
+
+### Java
+
+``` Person person = new Person();
+```
+
+### Python
+
+``` persona = Person();
+```
+
+### JavaScript
+
+``` var person = new Person();
+```
+
+### PHP
+
+``` $person = new Person();
+```
+
+## Método constructor
+
+- Dar un estao inicial al objeto
+- Tiene el mismo nombre de la clase
+- Son los parámetros mínimos que necesita el objeto para pueda vivir
