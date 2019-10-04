@@ -476,3 +476,32 @@ classPerson{}
 
 ## Account.js
 
+function Account() {
+    this.id;
+    this.name;
+    this.docuemnt;
+    this.email;
+    this.password;
+}
+
+## Car.js
+
+function Car() {
+    this.id;
+    this.lincese;
+    this.driver;
+    this.passenger;
+}
+
+## Payment.js
+    function Payment() {
+        this.id;
+    }
+
+## Route.js 
+
+function Route {
+    this.id;
+    this.init;
+    this.end;
+}
