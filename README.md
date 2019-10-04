@@ -221,9 +221,9 @@
 - raza
 - altura
 
-<!-- Comportamientos -->
-``` serAdoptado()
-```
+## Comportamientos
+
+1. serAdoptado()
 
 - Abstracción y Clases
 
@@ -369,56 +369,51 @@
 - Funciones
 
 - Java
-
-``` class Person{}
-```
+    class Person{}
 
 - Python
 
-``` class Person:
-```
+    class Person:
 
 - JavaScript
 
-``` functionPerson() {}
-```
+    functionPerson() {}
 
 - PHP
 
-```classPerson{}
-```
+    classPerson{}
+
 <!-- Funciones para definir Clases -->
 
 - Java
 
-``` class Person{
+    class Person{
     String name= "";
     void walk() {}
 }
-```
 
 - Python
 
-```class Person:
-    name = "";
-    def walk();
-```
+    class Person:
+        name = "";
+        def walk();
+
 <!-- Anidación dentro del método -->
 
 - JavaScript
 
-```Person.prototype.walk = function() {
+Person.prototype.walk = function() {
     }
-```
+
 
 - PHP
 
 <!-- Dínamicamente tipeado -->
-```classPerson{
+classPerson{
     $name = "";
     function walk() {}
 }
-```
+
 <!-- Definir bloques de código, poner $ -->
 
 - DRY: Don't repeat yourself
